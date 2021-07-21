@@ -6,8 +6,13 @@ b)Repos Page - which list the repository names of a given user github profile.
 c)CommitList Page- which lists the commits with seach feature.
 
 
-Working:
+Start the App:
 
+* Clone the repo and just run the below scripts:
+    a) npm install     -- this will install the dependecies looking at the package.json file required for the app to run.
+    b) npm start       -- this will start the application and then go to the  (localhost:3000) to check the app.
+
+Working:
 1. Give the username in the home page/start page.
 2. If the userprofile not a valid name , it just refreshes the page and if it is private it shows a message that
   Repos are not available.
