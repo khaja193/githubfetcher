@@ -1,0 +1,20 @@
+Introduction:
+
+There are 3 pages.
+a)Home Page/username page - here you need to provide the github username.
+b)Repos Page - which list the repository names of a given user github profile.
+c)CommitList Page- which lists the commits with seach feature.
+
+
+Working:
+
+1. Give the username in the home page/start page.
+2. If the userprofile not a valid name , it just refreshes the page and if it is private it shows a message that
+  Repos are not available.
+3. when you give the valid username it gives the repos.
+4. Select the repo for which you want to see the last 20 commits.
+5. In the commit page you can see the commit id along with the commit messsage.
+6. Search feature is also available in commit page . When you give the keyword of any commit message ,
+    it will display the commits with those keywords.
+
+7. When you try to reload the RepoList page or CommitList page, it will ask you to go the HomePage again.

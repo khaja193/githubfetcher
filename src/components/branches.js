@@ -7,7 +7,7 @@ const Branches = (props)=>{
     if(props.location.branchNames===undefined||props.location.branchNames.length===0){
         return(
             <div>
-                <h2> No Branches available, Please try giving different UserName.</h2>
+                <h2> No Repos available, Please try giving different UserName.</h2>
                
                 <Link to="/">Click here to give the userName</Link>
             </div>
